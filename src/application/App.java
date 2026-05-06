@@ -49,7 +49,7 @@ public class App {
                         .map(x -> x.getSalary())
                         .reduce(0.0, (x, y) -> x + y);
 
-            System.out.println("Sum of salary from people whose name starts with 'M': " + String.format("%.2f", sum));
+            System.out.println("Soma dos salarios dos funcionarios que comecam com a letra 'M': " + String.format("%.2f", sum));
 
         } catch(IOException e) {
             System.out.println("Error: " + e.getMessage());
